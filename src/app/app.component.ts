@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  myArray:string[];
+
+  constructor(){
+    this.myArray = ["test","test2","hello"];
+  }
+
+  private _test() {
+    console.log("Hello, world!")
+  }
+
 }
